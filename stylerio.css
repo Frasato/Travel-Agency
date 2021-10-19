@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu sup*/
+header{
+    background-color: #001F00;
+}
+
+ul#menusup{
+    margin-right: 90px;
+    position: relative;
+    margin-top: -30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+.supmenu{
+    display: inline;
+    padding-right: 50px;
+    font: normal 15pt Arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+img#logoicon{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+/*Banner*/
+div#redondobanner{
+    background-image: url('../Banner\ rio.jpg');
+    background-repeat: no-repeat;
+    background-position: -150px -300px;
+    padding-bottom: 600px;
+    border-radius: 0 0 80px 80px;
+}
+
+
+/*Sobre*/
+div#sobre{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+div#dir{
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-left: 320px;
+}
+
+div#dir > p{
+    margin-right: 140px;
+    font: normal 12pt Arial;
+    color: #707070;
+}
+
+div#dir > h1{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+    color: #036010;
+}
+
+img#sobreimg{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+/*Destino*/
+.destino{
+    display: flex;
+    background-image: url('../BG\ fundo\ destinos.png');
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: 400px 0;
+    max-width: 1920px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 420px;
+    flex-wrap: wrap;
+}
+
+.destinos{
+    margin-top: 50px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+
+.destinos > p{
+    max-width: 265px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #707070;
+}
+
+.destinos > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+    color: #036010;
+}
+
+.destinos > img{
+    max-width: 300px;
+    border-radius: 50px;
+}
+
+div#txtdandopau{
+    padding-left: 45px;
+}
+
+/*Menu inf*/
+footer{
+    background-color: #001F00;
+    margin-top: 30px;
+}
+
+ul#menuinf{
+    margin-left: 760px;
+    list-style: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+ul#menuinf > li{
+    padding-bottom: 5px;
+}
+
+footer > img{
+    max-width: 70px;
+    max-height: 70px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 660px;
+}

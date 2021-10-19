@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Menu sup*/
+header{
+    background-color: #001F00;
+}
+
+ul#menusup{
+    margin-right: 90px;
+    position: relative;
+    margin-top: -30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+
+.supmenu{
+    display: inline;
+    padding-right: 50px;
+    font: normal 15pt Arial;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+img#logoicon{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+/*Banner*/
+div#redondobanner{
+    background-image: url('../Banner.jpg');
+    background-repeat: no-repeat;
+    background-position: -150px -300px;
+    padding-bottom: 600px;
+    border-radius: 0 0 80px 80px;
+}
+
+
+/*Sobre*/
+div#sobre{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+div#esq{
+    margin-left: 200px;
+    margin-right: 80px;
+}
+
+div#dir{
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+div#dir > p{
+    margin-right: 100px;
+    font: normal 12pt Arial;
+    color: #707070;
+}
+
+div#dir > h1{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+    color: #036010;
+}
+
+img#sobreimg{
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+/*Destino*/
+.destino{
+    display: flex;
+    background-image: url('../BG\ fundo\ destinos.png');
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: 400px 0;
+    max-width: 1920px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 420px;
+    flex-wrap: wrap;
+}
+
+.destinos{
+    margin-top: 50px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+
+.destinos > p{
+    max-width: 235px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #707070;
+}
+
+.destinos > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+    color: #036010;
+}
+
+div#txtdandopau{
+    padding-left: 45px;
+}
+
+
+/*Contato*/
+div#contato{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inpt{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 0px 3px 7px rgb(185, 185, 185);
+
+    padding-left: 10px;
+    color: #707070;
+}
+
+input#corpo{
+    margin-bottom: 10px;
+    height: 120px;
+}
+
+button{
+    background-color: #519e4d;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover{
+    background-color: #c4ffc1;
+    color: black;
+}
+
+div#contato > h1{
+    color: #036010;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.destinos > h1 > a{
+    color: #036010;
+}
+
+.destinos > h1 > a:hover{
+    text-decoration: underline;
+}
+
+/*Menu inf*/
+footer{
+    background-color: #001F00;
+    margin-top: 30px;
+}
+
+ul#menuinf{
+    margin-left: 760px;
+    list-style: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+ul#menuinf > li{
+    padding-bottom: 5px;
+}
+
+footer > img{
+    max-width: 70px;
+    max-height: 70px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 660px;
+}
